@@ -4,7 +4,6 @@
 
 body {
 	background-color: #fafafa;
-	font-family: 'Josefin Sans', sans-serif;
 	color:#4a4a4a;
 
 }
@@ -28,17 +27,29 @@ nav ul, #portfolio + ul {
 
 }
 
+#portfolio + ul li p {
+
+	margin-bottom:30px;
+}
+
+
+h1,h2,h3 {
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+p,nav ul li a {
+		font-family: 'Lato', sans-serif;
+}
+
 h1,h2,h3,p {
 
 	text-align: center;
 }
 
 p {
-	line-height:1.2;
+	line-height:1.5;
 }
-
-
-
 
 
 header nav  li a {
@@ -50,7 +61,7 @@ header nav  li a {
 	margin: 10px 0 10px 0;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.25em;
 	color:#4a4a4a;
 
 }
@@ -59,6 +70,16 @@ header nav  li a {
 header a:link {
 	
 	color:#4a4a4a;
+	transition-duration:.5s;
+	transition property: background-color, color;
+
+
+}
+
+header a:hover {
+	background-color: #f78460;
+	color:#fff;
+
 
 }
 
@@ -66,7 +87,17 @@ header a:link {
 
 footer nav li  {
 	display: inline-block;
+	font-weight: bold;
 }
+
+footer nav li a {
+	text-decoration: none;
+	color:#4a4a4a;
+
+}
+
+
+
 
 footer nav li:nth-child(2){
 	float:right;
@@ -74,7 +105,7 @@ footer nav li:nth-child(2){
 
 
 .container {
-	padding: 10px;
+	padding: 20px 10px;
 	max-width: 100%;
 }
 
@@ -97,11 +128,24 @@ footer nav li:nth-child(2){
 
 
 
-
-
-
 #portfolio ~ div {
 	background-color: #fff;
 }
 
+
+.skillsSection {
+	text-align: center;
+}
+
+.skillList{
+
+	list-style-type: none;
+	margin: 0px; padding: 0px;
+
+}
+
+.skillList  li {
+	display: inline;
+
+}
 
