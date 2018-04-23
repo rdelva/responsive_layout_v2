@@ -42,29 +42,23 @@ p,nav ul li a {
 		font-family: 'Lato', sans-serif;
 }
 
-h1,h2,h3,p {
 
-	text-align: center;
-}
 
 p {
 	line-height:1.5;
 }
 
-
 header nav  li a {
-	text-align: center;
-	background-color:#fff;
-	width: 100%;
-	display:block;
-	padding:10px;
-	margin: 10px 0 10px 0;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 1.25em;
-	color:#4a4a4a;
+		text-align: center;
+		padding:10px;
+		margin: 10px 0 10px 0;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.25em;
+	
 
 }
+
 
 
 header a:link {
@@ -114,10 +108,7 @@ footer nav li:nth-child(2){
 
 }
 
-.profile {
 
-	text-align: center;
-}
 
 .contact {
 
@@ -146,6 +137,153 @@ footer nav li:nth-child(2){
 
 .skillList  li {
 	display: inline;
+
+}
+
+
+@media screen and (min-width: 320px) {
+
+
+
+
+	header nav  li a {
+		text-align: center;
+		background-color:#fff;
+		width: 100%;
+		display:block;
+		padding:10px;
+		margin: 10px 0 10px 0;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.25em;
+		color:#4a4a4a;
+
+	}
+
+	h1,h2,h3,p {
+
+	text-align: center;
+	
+	}
+
+	.profile {
+				text-align: center;
+
+	}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+	
+
+
+	header h1 {
+		float:left;
+	}
+
+	header nav ul {
+		float: right;
+	}
+
+	
+	header nav ul li {
+		display: inline-block;
+	}
+
+	.profile p {
+				text-align: left;
+
+	}
+
+
+
+	header nav  li a {
+		text-align: center;
+		background-color:inherit;
+		width: 100%;
+		display:block;
+		padding:10px;
+		margin: 10px 0 10px 0;
+		font-weight: bold;
+		font-size: 1.25em;
+		color:#4a4a4a;
+
+
+	}
+
+
+	header nav li a:hover {
+		background-color: inherit;
+		color:#4a4a4a;
+		border-bottom:  1px solid #f78460;
+	}
+
+
+	.profile img {
+		float:right;
+	}
+
+	
+
+
+	.gallery  ul li{
+
+		display: inline-block;
+		max-width: 45%;
+		margin: 2%;
+
+
+
+
+	}
+
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+	
+
+	.wrapper {
+		max-width: 90%;
+		margin: 0 auto;
+
+	}
+
+	.profile p {
+
+		font-size: 1.6em
+
+
+	}
+
+		
+
+
+
+
+
+
+	.gallery  ul li{
+
+		display: inline-block;
+		max-width: 28%;
+
+
+
+
+	}
+
+
 
 }
 
