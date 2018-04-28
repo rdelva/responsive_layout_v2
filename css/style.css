@@ -1,3 +1,39 @@
+/* Base Styles
+   ========================================================================== */
+
+/*
+ * Setting up default look of site
+ */
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #fafafa;
+	color:#4a4a4a;
+
+}
+
+
+h1 {
+	margin: 0px;
+}
+
+
+
+/* Navigation */
+
+
+header {
+	padding: 10px 0;
+}
+
+
+
+
+
+
 /* Media Query
    ========================================================================== */
 
@@ -5,3 +41,12 @@
  * Setting up Media Query
  */
 
+@media (max-width:320px){
+
+	.wrapper {
+		max-width:320px;
+	}
+
+
+
+}
