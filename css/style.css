@@ -150,7 +150,7 @@ p {
 }
 
 
-[href='#top']{
+.footerLink{
 	display: inline-block;
 	float: right;
 }
@@ -207,7 +207,7 @@ p {
 
 	}
 
-	[href='#top'] {
+	.footerLink {
 
 	  display: none;
 	}
