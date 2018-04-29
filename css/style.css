@@ -119,7 +119,7 @@ p {
 
 	.container {
 		text-align: center;
-		max-width:320px;
+		max-width:768px;
 		margin: 0 auto;
 	}
 
@@ -234,6 +234,11 @@ p {
 	}
 
 
+	.profile p{
+		font-size: 1.5em;
+	}
+
+
 	.profile  img{
 
 		float:right;
@@ -253,5 +258,7 @@ p {
 	.skillList li{
 		display: inline-block;
 	}
+
+
 
 }
