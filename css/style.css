@@ -89,9 +89,19 @@ p {
 	padding-bottom:30px;
 }
 
+
+.titleFooter {
+	display: inline-block;
+	float:left;
+}
+
+
+
 .footerMenu{
 	display: none;
 }
+
+
 
 
 /* Media Query
@@ -144,18 +154,10 @@ p {
 
 
 
-.titleFooter {
-	display: inline-block;
-	float:left;
-}
-
-
 .footerLink{
 	display: inline-block;
 	float: right;
 }
-
-
 
 
 
