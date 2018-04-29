@@ -12,21 +12,23 @@
 body {
 	background-color: #fafafa;
 	color:#4a4a4a;
-
 }
-
 
 h1 {
 	margin: 0px;
 }
 
-
-
-/* Navigation */
-
-
 header {
 	padding: 10px 0;
+}
+
+h1,h2,h3 {
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+p,nav, ul {
+		font-family: 'Lato', sans-serif;
 }
 
 
@@ -41,12 +43,16 @@ header {
  * Setting up Media Query
  */
 
-@media (max-width:320px){
+@media (min-width:320px){
 
-	.wrapper {
-		max-width:320px;
+
+	.container {
+		text-align: center;
 	}
 
+
+
+	
 
 
 }
