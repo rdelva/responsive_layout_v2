@@ -208,8 +208,8 @@ p {
 	}
 
 	[href='#top'] {
-		visibility: none;
 
+	  display: none;
 	}
 
 	.footerMenu  {
