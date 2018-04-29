@@ -54,22 +54,6 @@ footer{
 }
 
 
-
-footer nav div{
-	display: inline-block;
-	float:left;
-}
-
-footer nav ul li {
-	display: inline-block;
-	float:right;
-	
-}
-
-
-
-
-
 h1,h2,h3 {
 	font-family: 'Josefin Sans', sans-serif;
 
@@ -105,6 +89,9 @@ p {
 	padding-bottom:30px;
 }
 
+.footerMenu{
+	display: none;
+}
 
 
 /* Media Query
@@ -154,9 +141,22 @@ p {
 
 	 }
 
-	.footerMenu {
-		display:none;
-	}
+
+
+
+.titleFooter {
+	display: inline-block;
+	float:left;
+}
+
+
+[href='#top']{
+	display: inline-block;
+	float: right;
+}
+
+
+
 
 
 
@@ -206,6 +206,24 @@ p {
 		margin-right:1em;
 
 	}
+
+	[href='#top'] {
+
+	  display: none;
+	}
+
+	.footerMenu  {
+		display: block;
+		text-align: right;
+	}
+
+
+	.footerMenu li {
+		display:inline-block;
+		padding-left: 10px;
+
+	}
+
 
 }
 
